@@ -12,9 +12,9 @@
 <body>
     <div class="container-fluid">
         <div class="img max-width: 100%;" id="welcome">
-            <img src="./assets/backgrounds/h_img.jpg">
+
             <div class="welcome">
-                <div class="img"> <img src="./assets/logo/logo.png"> </div>
+                <img src="./assets/logo/logo.png">
                 <div class="h1" style="padding: 20px;">WELCOME<br>TO DELANI STUDIO </div>
                 <div class="text-small text-uppercase"> people are making amazing designs in a fun environment</div>
             </div>
@@ -25,10 +25,10 @@
         <div class="container text-center text-small" id="aboutUs">
             <h1 class="text-center text-small title">About us</h1>
             <p> When you work with us, you are part of a team of commited collaborators. Al aspects of our software
-                development process are intergrated, interactive and agile.
+                development process are intergrated, interactive and agile.<br>
                 Our approach unifies design, dvelopment to create exceptional products.
                 We start each project by understanding you business goals, the user's needs and the product requirements
-                .
+                .<br>
                 Then we help translate them into effective and elegant solutions.<p>
         </div>
         <div class="services">
@@ -48,24 +48,44 @@
             </div>
         </div>
         <div class="container">
-            <h1 class="title text-center">WHAT WE DO</h1>
+            <h1 class="title text-center text-small" >WHAT WE DO</h1>
             <div class="row " id="whatWeDo">
                 <div class="col-md-4">
                     <div class="">
                         <img src="./assets/services_icons/design_icon.png">
                         <p class="text-small" style="margin-left: 15px;">DESIGN</p>
                     </div>
+                    <div class="design">
+                        <p>
+                            Our design practice offers a full range of services including brand strategy, interaction
+                            and visual design and user experience testing.
+                            Throughout your project, our designers create and implement visual design and workflows,
+                            solicit user feedback and work with you to make sure what gets built is what is needed.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="offset-md-4">
                         <img src="./assets/services_icons/dev_icon.png">
-                        <p class="text-small"style="margin-left: -10px;">DEVELOPMENT</p>
+                        <p class="text-small" style="margin-left: -10px;">DEVELOPMENT</p>
+                    </div>
+                    <div class="development">
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                            They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such as test-driven development and pair programming.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="col-md-3 ml-md-auto">
                         <img src="./assets/services_icons/product_icon.png">
                         <span class="text-small text-nowrap" style="margin-left: -50px;">PRODUCT MANAGEMENT</span>
+                    </div>
+                    <div class="product">
+                        <p>
+                            Planning and development is iterative. Because we are constantly coding and testing, the
+                            products we build are always ready to go live.
+                            This iterative process allows for changes as business requirements evolve.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +136,66 @@
                 </div>
             </div>
         </div>
+        <div class="container form" style="padding-top: 70px;">
+            <form class=form-inline id="form" style="padding: 100px;">
+                <h1 class="title text-center text-uppercase">Contact Us</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group-sm">
+                                <input type="text" class="form-control" id="name" placeholder="Name...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="padding-left: 12px;">
+                        <div class="form-group">
+                            <div class="input-group-sm">
+                                <input type="email" class="form-control" id="emial" placeholder="Email...">
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="">
+                            <a><img src="./assets/social_icons/twitter.png" alt="twitter icon"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/dribble.png" alt="dribble icon"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/facebook.png" alt="facebook icon"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/g_plus.png" alt="google plus icon"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/skype.png"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/stumble_upon.png"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/behance.png"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/pinterest.png"></a>
+                        </div>
+                        <div class="">
+                            <a><img src="./assets/social_icons/flickr.png"></a>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center bg-light">
+                DELANI STUDIO<br>2020
+            </div>
+        </footer>        
     </div>
     <script src="./js/jquery-3.4.1.js"></script>
     <script src="./js/script.js"></script>
