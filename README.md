@@ -2,7 +2,7 @@
 #### Delani studio website, 21/02/2020
 #### By [E Naika](https://github.com/ENAIKA)
 ## Description
-* This is a website showing services offered by Delani studio.
+* Delani studio is a website for Delani Studio showing software deelopment services offered by the company and portfolio of previous projects worked on.
 * The user is requested to subscibe to mailchimp email marketing services. 
 ## Setup/Installation Requirements
 * To run the website need a browser (for IE browsers, version 9 and above is recommended.)
@@ -34,7 +34,7 @@ Follow this steps:
 
 
 ### License
-* [MIT License](LISENSE)
+* [MIT License](https://github.com/ENAIKA/repo/blob/master/LICENSE.md)
 
 * Copyright © [E NAIKA](https://github.com/ENAIKA)[2020]
 
