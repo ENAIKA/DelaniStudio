@@ -70,6 +70,13 @@ $(document).ready(function(){
     $("#card8").fadeToggle(1000);
   });
 });
+$(document).ready(function(){
+  $("#subscribeMail").click(function(){
+    $("#mc_embed_signup").show();
+  });
+  event.preventDefault();
+
+});
 
   //js form validation
   function sendMail() {
@@ -80,14 +87,14 @@ $(document).ready(function(){
              + "&subject=" + escape("Delani Studio")
              + "&body=" + escape(document.getElementById('myText').value)
     ;
-    if(name||email||message==""){
+    if(name===""||email===""||message===""){
       alert("all fields are required");
     }
     else{
-      
-      alert(name + " "+ "email send successfully");
       window.location.href = link;
-      Form.reset();
+      alert(name + " "+ "we have received your message. Thank you for reaching out to us");
+      
+      document.getElementById("form1").reset();
     }
 
     
