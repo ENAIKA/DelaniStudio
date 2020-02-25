@@ -3,12 +3,12 @@ body{
 }
 #welcome{
     background-image: url('../assets/backgrounds/h_img.jpg');
-    height: 130vh;
-    background-position: center;
-    width: 100%;    
+    height: 110vh;
+    background-position: center;    
 }
 .welcome{
     position: absolute;
+    color: white;
     top: 65%;
     left: 49%;
     width: 100%;
@@ -23,15 +23,15 @@ body{
     background-image: url('../assets/backgrounds/s_image.jpg');
     height: 60vh;
     background-position: center;
-    width: 100%;
     color: white;
     text-align: center;
     opacity: 0.7;
 }
 #form{
     background-image: url('../assets/backgrounds/c_image.jpg');
-    height: 70vh;
+    height: 100vh;
     opacity: 0.8;
+    background-repeat: no-repeat;
     background-position: center;
     color:transparent;
     background-color:rgba(0,0,0,0) !important;
@@ -43,15 +43,23 @@ body{
     height:240px;
 }
 .textarea1{
-    width: 100%;
+    width: 50%;
     height:240px;
-    padding: 0px 20px;
+    padding-top: 5px;
+    padding-left: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 0px;
     background-color: transparent;
     font-size: 16px;
     color: black;
+    position: center;
+
+}
+.form-control{
+    color:black;
+    background-color: transparent;
+    opacity: 0.9;
 }
 .design, .development, .product{
     display: none;
@@ -59,17 +67,35 @@ body{
 .social{
     padding-left: 10px;
 }
-.card{
-    height: 150px;
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    height: 30px;
+    width:24%;
+    margin-left: 5px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5rem;
 }
-.card1{
-    display: none;
-    background-color: white;
-    color:black;
-    border: 1px solid #ccc;
+#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8{
+     display: none; 
+}
+#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8{
+    position: relative;
     box-sizing: border-box;
-    font-size: 16px;
+    border:1px solid white;
+    align-content: center;
+    transform: translate(-50%, -50%);
 }
 p {
     cursor: pointer;
+}
+#mc_embed_signup{
+    display:none;
 }
