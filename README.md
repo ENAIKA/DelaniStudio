@@ -34,7 +34,7 @@ Follow this steps:
 
 
 ### License
-* [MIT License](https://github.com/ENAIKA/repo/blob/master/LICENSE.md)
+* [MIT License](https://github.com/ENAIKA/DelaniStudio/blob/master/LICENSE.md)
 
 * Copyright © [E NAIKA](https://github.com/ENAIKA)[2020]
 

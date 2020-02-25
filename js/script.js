@@ -70,6 +70,7 @@ $(document).ready(function(){
     $("#card8").fadeToggle(1000);
   });
 });
+//show email sign-up form
 $(document).ready(function(){
   $("#subscribeMail").click(function(){
     $("#mc_embed_signup").show();
@@ -78,7 +79,8 @@ $(document).ready(function(){
 
 });
 
-  //js form validation
+  //js form  validation
+
   function sendMail() {
     var name=document.getElementById("FNAME").value;
     var email=document.getElementById("EMAIL").value;

@@ -58,6 +58,7 @@ body{
     color:black;
     background-color: transparent;
     opacity: 0.9;
+    
 }
 .design, .development, .product{
     display: none;
