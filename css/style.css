@@ -29,10 +29,8 @@ body{
 }
 #form{
     background-image: url('../assets/backgrounds/c_image.jpg');
-    height: 100vh;
-    opacity: 0.8;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 80vh;
+    opacity: 0.8;   
     color:transparent;
     background-color:rgba(0,0,0,0) !important;
     border:none !important;
@@ -44,7 +42,7 @@ body{
 }
 .textarea1{
     width: 50%;
-    height:240px;
+    height:230px;
     padding-top: 5px;
     padding-left: 20px;
     box-sizing: border-box;
@@ -91,7 +89,13 @@ body{
     box-sizing: border-box;
     border:1px solid white;
     align-content: center;
-    transform: translate(-50%, -50%);
+    width: 95%;
+    padding:1rem; 
+    margin-top:-150px;
+    margin-bottom:-150px;
+    margin-left:3px;
+    color:white;
+    background-color: black;
 }
 p {
     cursor: pointer;
