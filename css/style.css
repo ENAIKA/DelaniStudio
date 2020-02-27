@@ -95,8 +95,8 @@ body{
     margin-top:-150px;
     margin-bottom:-150px;
     margin-left:3px;
-    color:white;
-    background-color: black;
+    color:black;
+    background-color: white;
 }
 p {
     cursor: pointer;
